@@ -1,0 +1,33 @@
+## Python
+__pycache__/
+*.py[cod]
+*.db
+.venv/
+venv/
+.pytest_cache/
+#Backend
+backend/tests
+backend/.venv
+Docs/INTERVIEW_PREP.md
+
+
+## Environment files
+.env
+# keep .env.example committed as a template
+
+## Editor / OS
+.vscode/
+.DS_Store
+
+## Frontend – dependencies & build output
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+## Frontend – Vite / TypeScript artefacts
+frontend/*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+frontend/.vite/
+
+## Frontend – test coverage
+frontend/coverage/
